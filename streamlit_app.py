@@ -10,7 +10,7 @@ import concurrent.futures
 
 # Xác thực truy cập vào Google Sheets
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials_path = "C:\\Users\\thong\\Downloads\\vnw.data\\datavnwealth-25a353ea3781.json"
+credentials_path = "datavnwealth-25a353ea3781.json"
 credentials = ServiceAccountCredentials.from_json_keyfile_name(credentials_path, scope)
 client = gspread.authorize(credentials)
 
