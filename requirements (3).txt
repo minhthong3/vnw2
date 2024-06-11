@@ -1,0 +1,13 @@
+streamlit
+pandas
+gspread
+oauth2client
+oauth2client.service_account
+streamlit-autorefresh
+streamlit-option-menu
+streamlit_navigation_bar
+streamlit-on-Hover-tabs
+streamlit_antd_components
+datasets
+vnstock3
+pyarrow
